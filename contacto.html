@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Novillo de Oro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <a class="navbar-brand text-warning" href="#">El Novillo de Oro</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-warning" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="venta.html">Venta de Ejemplares</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link text-warning" href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="my-5">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-danger text-warning text-center py-3">
+        <p>&copy; 2024 El Novillo de Oro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

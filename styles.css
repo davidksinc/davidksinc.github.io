@@ -1,0 +1,26 @@
+body {
+    background-color: #fff;
+}
+
+h2 {
+    color: #dc3545; /* Rojo */
+}
+
+.icono {
+    width: 50px;
+    height: auto;
+}
+
+.social-icons {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+.social-icons a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 24px; /* Tamaño de los íconos */
+            color: #FFFF00; /* Color de los íconos */
+        }
